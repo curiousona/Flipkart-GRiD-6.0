@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Size Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='flipkart_style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>Flipkart Size Prediction</h1>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2>Enter Your Measurements</h2>
+            <form action="/predict" method="post">
+                <div class="input-group">
+                    <label for="height">Height (cm):</label>
+                    <input type="text" id="height" name="height" required>
+                </div>
+                <div class="input-group">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="text" id="weight" name="weight" required>
+                </div>
+                <div class="input-group">
+                    <label for="chest">Bust/Chest (cm):</label>
+                    <input type="text" id="chest" name="chest" required>
+                </div>
+                <div class="input-group">
+                    <label for="waist">Waist (cm):</label>
+                    <input type="text" id="waist" name="waist" required>
+                </div>
+                <div class="input-group">
+                    <label for="hips">Hips (cm):</label>
+                    <input type="text" id="hips" name="hips" required>
+                </div>
+                <div class="input-group">
+                    <label for="body_shape_index">Body Shape Index:</label>
+                    <input type="text" id="body_shape_index" name="body_shape_index">
+                </div>
+                <div class="input-group">
+                    <label for="bust_chest">Bust/Chest (cm):</label>
+                    <input type="text" id="bust_chest" name="bust_chest">
+                </div>
+                <button type="submit" class="button">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
