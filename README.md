@@ -1,9 +1,6 @@
 # Flipkart-GRiD-6.0
 AI-Powered Size Chart Generator for Apparel Sellers
 
-Certainly! Here’s a `README.md` file for your project, incorporating both the problem statement and practical project details from a developer’s perspective:
-
----
 
 # AI-Powered Size Chart Generator for Apparel Sellers
 
